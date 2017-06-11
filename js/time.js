@@ -34,10 +34,12 @@
 		if (horas == 0){
 			horas = 12;
 		}
+		pampm.textContent = ampm;
 		phoras.textContent = horas;
 
 		if (minutos<10){minutos = "0" + minutos};
-		if (segundos<10){segundos = "0" + minutos};
+		if (segundos<10){segundos = "0" + segundos};
+
 		pminutos.textContent= minutos;
 		psegundos.textContent= segundos;
 
